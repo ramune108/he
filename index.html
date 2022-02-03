@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- saved from url=(0069)https://cdpn.io/dkossy/fullembedgrid/xGXqPP?animations=run&type=embed -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <titleへぇ</title>
+  
+  
+  
+  
+<style>
+.btn a {
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  display: block;
+  background: #999;
+  border-radius: 5px;
+  border-bottom: 4px solid #666;
+  color: #FFF;
+  margin: 0 auto;
+}
+</style>
+
+  
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no">
+  <p class="btn"><a onclick="sound()">へぇボタン</a></p>
+ 
+<audio id="sound" preload="auto">
+    <source src="sound.mp3" type="audio/mp3">
+    <source src="sound.wav" type="audio/wav">
+</audio>
+    <script src="./stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js.ダウンロード"></script>
+
+  <script src="./jquery.min.js.ダウンロード"></script>
+      <script id="rendered-js">
+(function (window, $) {
+  'use strict';
+
+  $.fn.useSound = function (_event, _id) {
+    var se = $(_id);
+    this.on(_event, function () {
+      se[0].currentTime = 0;
+      se[0].play();
+    });
+    return this;
+  };
+
+})(this, this.jQuery);
+
+$('.btn a').useSound('mousedown touchstart', '#sound');
+    </script>
+
+  
+
+  <script src="./iframeRefreshCSS-4793b73c6332f7f14a9b6bba5d5e62748e9d1bd0b5c52d7af6376f3d1c625d7e.js.ダウンロード"></script>
+
+
+
+ 
+</body></html>
